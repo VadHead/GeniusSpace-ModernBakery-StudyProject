@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -16,20 +16,25 @@
                 <img src="./images/logo.svg" alt="Логотип пекарні">
             </a>
             <ul>
-                <li><a href="#traditions-section">Наші традиції</a></li>
-                <li><a href="#master-chefs">Шеф-кухарі</a></li>
-                <li><a href="#formats">Формати</a></li>
-                <li><a href="#contacts">Контакти</a></li>
+                <li><a class="header-nav-link" href="#traditions-section">Наші традиції</a></li>
+                <li><a class="header-nav-link" href="#master-chefs">Шеф-кухарі</a></li>
+                <li><a class="header-nav-link" href="#formats">Формати</a></li>
+                <li><a class="header-nav-link" href="#contacts">Контакти</a></li>
             </ul>
         </nav>
-        <button type="button">Замовити дзвінок</button>
+        <button class="button-callback" type="button">Замовити дзвінок</button>
     </header>
     <main>
-        <section>
-            <h1>Сучасна пекарня</h1>
+        <section class="hero-section">
+            <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
         </section>
         <section id="traditions-section">
-            <h2>Новий формат традицій</h2>
+            <ul class="advantages-list">
+                <li>Великий попит на ринку</li>
+                <li>Доступні за бюджетом формати</li>
+                <li>Досвідчена управлінська команда</li>
+            </ul>
+            <h2 class="section-title">Новий формат традицій</h2>
             <p><span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та
                 натуральність інгредієнтів.</p>
             <p>Ми працюємо як найвідоміші мережі—
@@ -40,7 +45,7 @@
             <img src="./images/baker-employee.jpg" alt="Чоловік пекар приготував хліб">
         </section>
         <section id="master-chefs">
-            <h2>Наші найкращі шеф-кухарі</h2>
+            <h2 class="section-title">Наші найкращі <span class="accent">шеф-кухарі</span></h2>
             <ul>
                 <li>
                     <img src="./images/master-chef-nastia.jpg" alt="Шеф-Кухар Настя">
@@ -67,7 +72,7 @@
             </ul>
         </section>
         <section id="formats">
-            <h2>Формати</h2>
+            <h2 class="section-title">Формати</h2>
             <ul>
                 <li>
                     <img src="./images/bakery-format-walrus.jpg" alt="Формат приміщення пекарні Walrus">
@@ -90,13 +95,12 @@
             </ul>
         </section>
         <section id="contacts">
-            <h2>Приєднуйся до мережі пекарень</h2>
+            <h2 class="section-title">Приєднуйся до мережі пекарень</h2>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6958.989741476466!2d30.488693012909557!3d50.45667757147483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCDQo9C60YDQsNGX0L3QsCwgMDIwMDA!5e1!3m2!1suk!2ses!4v1769515202914!5m2!1suk!2ses"
-                width="603" height="595" style="border:0;" allowfullscreen="" loading="lazy"
-                title="Google Maps"
+                width="603" height="595" style="border:0;" allowfullscreen="" loading="lazy" title="Google Maps"
                 referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+            </iframe>
         </section>
     </main>
     <footer>
